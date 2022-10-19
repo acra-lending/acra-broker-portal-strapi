@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "acra_broker_portal_menu_items",
+  "collectionName": "broker_portal_menu_items",
   "info": {
-    "singularName": "acra-broker-portal-menu-item",
-    "pluralName": "acra-broker-portal-menu-items",
-    "displayName": "Acra Broker Portal Menu Item",
-    "description": ""
+    "singularName": "broker-portal-menu-item",
+    "pluralName": "broker-portal-menu-items",
+    "displayName": "Broker Portal Menu Item"
   },
   "options": {
     "draftAndPublish": true
