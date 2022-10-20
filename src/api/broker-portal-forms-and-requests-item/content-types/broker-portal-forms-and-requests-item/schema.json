@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "broker_portal_forms_and_requests_items",
+  "info": {
+    "singularName": "broker-portal-forms-and-requests-item",
+    "pluralName": "broker-portal-forms-and-requests-items",
+    "displayName": "Broker Portal Forms and Requests Item"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "formTitle": {
+      "type": "string"
+    },
+    "pdfLink": {
+      "type": "string"
+    }
+  }
+}
