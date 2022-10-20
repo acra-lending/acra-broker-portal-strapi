@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "broker_portal_menu_items",
+  "info": {
+    "singularName": "broker-portal-menu-item",
+    "pluralName": "broker-portal-menu-items",
+    "displayName": "Broker Portal Menu Item"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "menuTitle": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "richtext"
+    }
+  }
+}
