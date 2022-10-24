@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "broker_portal_processor_tips_items",
+  "info": {
+    "singularName": "broker-portal-processor-tips-item",
+    "pluralName": "broker-portal-processor-tips-items",
+    "displayName": "Broker Portal Processor Tips Item",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "formTitle": {
+      "type": "string"
+    },
+    "pdfLink": {
+      "type": "string"
+    },
+    "pdf": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

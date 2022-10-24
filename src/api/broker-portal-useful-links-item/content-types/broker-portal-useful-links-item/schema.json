@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "broker_portal_useful_links_items",
+  "info": {
+    "singularName": "broker-portal-useful-links-item",
+    "pluralName": "broker-portal-useful-links-items",
+    "displayName": "Broker Portal Useful Links Item",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "linkName": {
+      "type": "string"
+    }
+  }
+}

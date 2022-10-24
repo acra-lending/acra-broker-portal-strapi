@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "broker_portal_processor_tips_contacts",
+  "info": {
+    "singularName": "broker-portal-processor-tips-contact",
+    "pluralName": "broker-portal-processor-tips-contacts",
+    "displayName": "Broker Portal Processor Tips Contact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contactName": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "ext": {
+      "type": "string"
+    }
+  }
+}
