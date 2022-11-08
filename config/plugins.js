@@ -17,4 +17,22 @@ module.exports = ({ env }) => ({
             },
         },
     },
+    ezforms:{
+      config:{
+        captchaProvider: {
+          name: 'none',
+        },
+        enableFormName: true,
+        notificationProviders: [
+          {
+            name: 'email',
+            enabled: true,
+            config: {
+              subject: "PreScreen Request", // Optional
+              from: 'noreply@acralending.com' // Required
+            }
+          },
+        ]
+      }
+  }
   });

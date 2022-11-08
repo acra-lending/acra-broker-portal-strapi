@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_text_block_2s",
+  "info": {
+    "displayName": "Text-block-2",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    }
+  }
+}

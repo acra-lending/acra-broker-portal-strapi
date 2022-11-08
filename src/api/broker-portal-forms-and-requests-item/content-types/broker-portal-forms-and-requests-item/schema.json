@@ -4,7 +4,8 @@
   "info": {
     "singularName": "broker-portal-forms-and-requests-item",
     "pluralName": "broker-portal-forms-and-requests-items",
-    "displayName": "Broker Portal Forms and Requests Item"
+    "displayName": "Broker Portal Forms and Requests Item",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,8 +15,15 @@
     "formTitle": {
       "type": "string"
     },
-    "pdfLink": {
-      "type": "string"
+    "pdf": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }

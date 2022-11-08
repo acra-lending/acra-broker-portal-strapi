@@ -4,7 +4,8 @@
   "info": {
     "singularName": "broker-portal-dashboard-item",
     "pluralName": "broker-portal-dashboard-items",
-    "displayName": "Broker Portal Dashboard Item"
+    "displayName": "Broker Portal Dashboard Item",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,6 +22,17 @@
       "type": "richtext"
     },
     "file": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "url": {
       "allowedTypes": [
         "images",
         "files",
@@ -28,7 +40,7 @@
         "audios"
       ],
       "type": "media",
-      "multiple": false
+      "multiple": true
     }
   }
 }
