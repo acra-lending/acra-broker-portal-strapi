@@ -22,7 +22,7 @@ module.exports = ({ env }) => ({
         captchaProvider: {
           name: 'none',
         },
-        enableFormName: true,
+        enableFormName: false,
         notificationProviders: [
           {
             name: 'email',
