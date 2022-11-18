@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "corr_portal_turn_times",
+  "info": {
+    "singularName": "corr-portal-turn-time",
+    "pluralName": "corr-portal-turn-times",
+    "displayName": "Corr Portal Turn Time"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    }
+  }
+}

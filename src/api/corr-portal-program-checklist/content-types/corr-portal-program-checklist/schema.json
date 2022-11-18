@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "corr_portal_program_checklists",
+  "info": {
+    "singularName": "corr-portal-program-checklist",
+    "pluralName": "corr-portal-program-checklists",
+    "displayName": "Corr Portal Program Checklist"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "formTitle": {
+      "type": "string"
+    },
+    "pdf": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

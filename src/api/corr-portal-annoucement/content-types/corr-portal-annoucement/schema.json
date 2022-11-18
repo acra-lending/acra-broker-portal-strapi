@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "corr_portal_annoucements",
+  "info": {
+    "singularName": "corr-portal-annoucement",
+    "pluralName": "corr-portal-annoucements",
+    "displayName": "Corr Portal Annoucement",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "summary": {
+      "type": "string"
+    },
+    "announcement": {
+      "type": "string"
+    },
+    "number": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "publishDate": {
+      "type": "date"
+    }
+  }
+}

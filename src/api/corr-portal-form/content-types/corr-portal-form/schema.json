@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "corr_portal_forms",
+  "info": {
+    "singularName": "corr-portal-form",
+    "pluralName": "corr-portal-forms",
+    "displayName": "Corr Portal Form"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "formTitle": {
+      "type": "string"
+    },
+    "pdf": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

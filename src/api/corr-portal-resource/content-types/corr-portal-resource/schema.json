@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "corr_portal_resources",
+  "info": {
+    "singularName": "corr-portal-resource",
+    "pluralName": "corr-portal-resources",
+    "displayName": "Corr Portal Resource"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "formTitle": {
+      "type": "string"
+    },
+    "pdf": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "corr_portal_dashboard_items",
+  "info": {
+    "singularName": "corr-portal-dashboard-item",
+    "pluralName": "corr-portal-dashboard-items",
+    "displayName": "Corr Portal Dashboard Item"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "richtext"
+    },
+    "file": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "url": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
