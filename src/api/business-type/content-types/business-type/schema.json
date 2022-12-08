@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "business_types",
+  "info": {
+    "singularName": "business-type",
+    "pluralName": "business-types",
+    "displayName": "BusinessType"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Type": {
+      "type": "string"
+    }
+  }
+}

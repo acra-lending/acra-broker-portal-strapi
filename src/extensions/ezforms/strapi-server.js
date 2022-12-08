@@ -49,7 +49,7 @@ module.exports = (plugin) => {
                             <td>${data.brokerId}</td>
                         </tr>
                         <tr>
-                            <td>Account Executive</td>
+                            <td>Account Executive/BDO</td>
                             <td>${data.aeSelect}</td>
                         </tr>
                         <tr>
