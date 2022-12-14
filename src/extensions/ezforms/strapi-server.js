@@ -38,7 +38,7 @@ module.exports = (plugin) => {
 
                 <div style="Margin: 0 auto;min-width: 320px;max-width: 500px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: transparent; text-align: center;">
             
-                    <img align="center" border="0" src="https://b6fe-107-194-134-60.ngrok.io/uploads/acra_logo_ea78bfefc3.png" alt="" title="" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 250px;" width="250">
+                    <img align="center" border="0" src="https://api.acralending.com/uploads/acra_logo_ea78bfefc3.png" alt="" title="" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 250px;" width="250">
 
                 </div>
 

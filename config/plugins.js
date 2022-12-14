@@ -12,8 +12,8 @@ module.exports = ({ env }) => ({
               // ... any custom nodemailer options
             },
             settings: {
-              defaultFrom: 'no-reply@strapi.io',
-              defaultReplyTo: 'example@strapi.io',
+              defaultFrom: 'webupdates@acralending.com',
+              defaultReplyTo: 'webupdates@acralending.com',
             },
         },
     },
@@ -29,7 +29,7 @@ module.exports = ({ env }) => ({
             enabled: true,
             config: {
               subject: "PreScreen Request", // Optional
-              from: 'noreply@acralending.com' // Required
+              from: 'webupdates@acralending.com' // Required
             }
           },
         ]
