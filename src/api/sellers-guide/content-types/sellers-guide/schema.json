@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sellers-guides",
+  "info": {
+    "singularName": "sellers-guide",
+    "pluralName": "sellers-guides",
+    "displayName": "Sellers-Guide"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pdf": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
