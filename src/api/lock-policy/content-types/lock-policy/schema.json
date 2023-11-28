@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lock-policies",
+  "info": {
+    "singularName": "lock-policy",
+    "pluralName": "lock-policies",
+    "displayName": "Lock Policy"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pdf": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
