@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "corr_training_tools",
+  "info": {
+    "singularName": "corr-training-tool",
+    "pluralName": "corr-training-tools",
+    "displayName": "Corr Training Tools"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "trainingTitle": {
+      "type": "string"
+    },
+    "pdf": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
